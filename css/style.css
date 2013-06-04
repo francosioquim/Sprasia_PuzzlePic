@@ -1,0 +1,16 @@
+body{
+	/* Chrome 10+,Safari */
+	background : -webkit-linear-gradient(right, rgb(242, 67, 44) 05%, rgb(255, 107, 8) 47%, rgb(245, 89, 5) 80%);
+
+	/* Firefox 4+ */ 
+	background : -moz-linear-gradient(right, rgb(242, 67, 44) 05%, rgb(255, 107, 8) 47%, rgb(245, 89, 5) 80%);
+
+	/* Opera */
+	background : -o-linear-gradient(right, rgb(242, 67, 44) 05%, rgb(255, 107, 8) 47%, rgb(245, 89, 5) 80%);
+
+	/* IE 10+ */
+	background : -ms-linear-gradient(right, rgb(242, 67, 44) 05%, rgb(255, 107, 8) 47%, rgb(245, 89, 5) 80%); 
+
+	/* W3C */
+	background : -linear-gradient(right, rgb(242, 67, 44) 05%, rgb(255, 107, 8) 47%, rgb(245, 89, 5) 80%);
+}
