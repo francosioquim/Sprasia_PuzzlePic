@@ -90,7 +90,9 @@ INDEX:
 body {
 	margin: 0;
 	padding: 0;
-	background: url("../images/small/background.png") repeat top center;
+	background: url("../images/small/background.png") repeat-x top center;
+	overflow: hidden;
+
 }
 header {
 	height: 4%;
@@ -186,6 +188,13 @@ a {
 #btn-hard:hover{
 	background: url("../images/small/buttons/hard-hover.png") no-repeat center center;
 }
+#btn-back{
+	background: url("../images/small/buttons/back.png") no-repeat center center;
+}
+#btn-back:hover{
+	background: url("../images/small/buttons/back-hover.png") no-repeat center center;
+}
+
 /*
  *	Main Menu
  
@@ -234,6 +243,56 @@ a {
 @media all and (min-width: 481px) {
 	body{
 		background: url("../images/medium/background.png") repeat top center;
+	}	
+	#logo {
+		margin: 5px auto 30% auto;
+		width: 406px;
+		height: 190px;
+		background: url("../images/medium/logo.png") no-repeat;
+		background-size: 100% auto;
+	}
+	#buttonlist ul li{
+		list-style: none;
+		width: 313px;
+		height: 64px;
+		margin: 6% auto 6% auto;
+		background-size: 313px 64px;
+	}
+	#btn-start{
+		background: url("../images/medium/buttons/start.png") no-repeat center center;
+	}
+	#btn-start:hover{
+		background: url("../images/medium/buttons/start-hover.png") no-repeat center center;
+	}
+	#btn-gallery{
+		background: url("../images/medium/buttons/gallery.png") no-repeat center center;
+	}
+	#btn-gallery:hover{
+		background: url("../images/medium/buttons/gallery-hover.png") no-repeat center center;
+	}
+	#btn-highscores{
+		background: url("../images/medium/buttons/highscores.png") no-repeat center center;
+	}
+	#btn-highscores:hover{
+		background: url("../images/medium/buttons/highscores-hover.png") no-repeat center center;
+	}
+	#btn-normal{
+		background: url("../images/medium/buttons/normal.png") no-repeat center center;
+	}
+	#btn-normal:hover{
+		background: url("../images/medium/buttons/normal-hover.png") no-repeat center center;
+	}
+	#btn-hard{
+		background: url("../images/medium/buttons/hard.png") no-repeat center center;
+	}
+	#btn-hard:hover{
+		background: url("../images/medium/buttons/hard-hover.png") no-repeat center center;
+	}
+	#btn-back{
+		background: url("../images/medium/buttons/back.png") no-repeat center center;
+	}
+	#btn-back:hover{
+		background: url("../images/medium/buttons/back-hover.png") no-repeat center center;
 	}
 
 }
