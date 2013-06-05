@@ -156,21 +156,35 @@ a {
 	margin: 6% auto 6% auto;
 	background-size: 189px 38px;
 }
-
 #btn-start{
 	background: url("../images/small/buttons/start.png") no-repeat center center;
+}
+#btn-start:hover{
+	background: url("../images/small/buttons/start-hover.png") no-repeat center center;
 }
 #btn-gallery{
 	background: url("../images/small/buttons/gallery.png") no-repeat center center;
 }
+#btn-gallery:hover{
+	background: url("../images/small/buttons/gallery-hover.png") no-repeat center center;
+}
 #btn-highscores{
 	background: url("../images/small/buttons/highscores.png") no-repeat center center;
+}
+#btn-highscores:hover{
+	background: url("../images/small/buttons/highscores-hover.png") no-repeat center center;
 }
 #btn-normal{
 	background: url("../images/small/buttons/normal.png") no-repeat center center;
 }
+#btn-normal:hover{
+	background: url("../images/small/buttons/normal-hover.png") no-repeat center center;
+}
 #btn-hard{
 	background: url("../images/small/buttons/hard.png") no-repeat center center;
+}
+#btn-hard:hover{
+	background: url("../images/small/buttons/hard-hover.png") no-repeat center center;
 }
 /*
  *	Main Menu
