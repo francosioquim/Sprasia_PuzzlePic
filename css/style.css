@@ -243,6 +243,7 @@ a {
 @media all and (min-width: 481px) {
 	body{
 		background: url("../images/medium/background.png") repeat top center;
+		overflow: hidden;
 	}	
 	#logo {
 		margin: 5px auto 30% auto;

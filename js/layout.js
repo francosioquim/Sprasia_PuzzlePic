@@ -9,14 +9,20 @@
  */
 
 // adjust background image
-function initializeLayout(bgheight){	
-	$('body').css('background-size','auto '+bgheight+'px');
-	$('body').css('height',bgheight+'px');
+function initializeLayout(){	
+	$('body').css('background-size','auto '+window.screen.availHeight+'px');
+	$('body').css('height',window.screen.availHeight+'px');
+	//adjust heigh on landscape mode
+	if (window.screen.availWidth > window.screen.availHeight) {
+		$('#logo').css('margin-bottom','10%');
+	} else {
+		$('#logo').css('margin-bottom','30%');
+	}
 }
 
 $(document).ready(function() {
 	
-	initializeLayout(window.screen.availHeight);
+	initializeLayout();
 	$(window).resize(function () 
     {
 		initializeLayout(window.screen.availHeight);
