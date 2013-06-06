@@ -194,6 +194,18 @@ a {
 #btn-back:hover{
 	background: url("../images/small/buttons/back-hover.png") no-repeat center center;
 }
+#playboard-normal{
+	width: 260px;
+	height: 260px;
+	margin: 10% auto auto auto;
+	background: url("../images/small/normal-board.png") no-repeat center center;
+}
+#playboard-hard{
+	width: 260px;
+	height: 260px;
+	margin: 10% auto auto auto;
+	background: url("../images/small/hard-board.png") no-repeat center center;
+}
 
 @media all and (min-width: 481px) {
 	body{
@@ -250,11 +262,17 @@ a {
 	#btn-back:hover{
 		background: url("../images/medium/buttons/back-hover.png") no-repeat center center;
 	}
-	#playboard_normal{
+	#playboard-normal{
 		width: 400px;
 		height: 400px;
 		margin: 10% auto auto auto;
 		background: url("../images/medium/normal-board.png") no-repeat center center;
+	}
+	#playboard-hard{
+		width: 400px;
+		height: 400px;
+		margin: 10% auto auto auto;
+		background: url("../images/medium/hard-board.png") no-repeat center center;
 	}
 
 
