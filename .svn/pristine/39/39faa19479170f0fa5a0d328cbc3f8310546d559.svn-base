@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 4905b07f24c8fb077231dbc384285d2d2c4ff924 Franco Sioquim <francosioquim@gmail.com> 1370314625 +0800	commit (initial): Initial Design
+4905b07f24c8fb077231dbc384285d2d2c4ff924 0076b9aa12e66cc41963352843db6c7087769650 Franco Sioquim <francosioquim@gmail.com> 1370315983 +0800	commit: Setup
+0076b9aa12e66cc41963352843db6c7087769650 608533f230b6694293a3c40e99c736054ace9e95 Franco Sioquim <francosioquim@gmail.com> 1370317510 +0800	commit: change bg
+608533f230b6694293a3c40e99c736054ace9e95 52f3e8cb6271ab5f8d4cf1675a17a5c78f89a9a6 Franco Sioquim <francosioquim@gmail.com> 1370332400 +0800	commit: Main Menu Design - Draft
+52f3e8cb6271ab5f8d4cf1675a17a5c78f89a9a6 a114938ff977a3a73b944e66e321bbae7c529c8d Franco Sioquim <francosioquim@gmail.com> 1370333255 +0800	commit: Start Page - Draft
+a114938ff977a3a73b944e66e321bbae7c529c8d 24d51f36b94fd70e02cdf2cd28609a8c176c1ea0 Franco Sioquim <francosioquim@gmail.com> 1370343953 +0800	commit: Changed Layout Colors - Draft
+24d51f36b94fd70e02cdf2cd28609a8c176c1ea0 1fa60a921c9c09f139123d57b76d02626fdd9190 Franco Sioquim <francosioquim@gmail.com> 1370428003 +0800	commit: Updated CSS Design
+1fa60a921c9c09f139123d57b76d02626fdd9190 c6961c87b326dd3c1ddb1b1e2e0a6920326d43e1 Franco Sioquim <francosioquim@gmail.com> 1370428498 +0800	commit: Hover Effect
+c6961c87b326dd3c1ddb1b1e2e0a6920326d43e1 264ab26905f250093665af53494da9bc409a2734 Franco Sioquim <francosioquim@gmail.com> 1370428531 +0800	commit: Hover Buttons - Draft
+264ab26905f250093665af53494da9bc409a2734 acef13ff2824e32bb33a319222b3414d3931c82c Franco Sioquim <francosioquim@gmail.com> 1370430431 +0800	commit: Added Back Button - Draft
+acef13ff2824e32bb33a319222b3414d3931c82c f1e08be6a4fea38e137baf9883aad092ea6f8a72 Franco Sioquim <francosioquim@gmail.com> 1370486891 +0800	commit: Layout Fix - Draft
+f1e08be6a4fea38e137baf9883aad092ea6f8a72 0972022f4bad947c7f3da4e8c6fb4fda8c43706c Franco Sioquim <francosioquim@gmail.com> 1370499164 +0800	commit: Prevent touch - Draft
+0972022f4bad947c7f3da4e8c6fb4fda8c43706c 2e4d159fe2668462987bc62b9b91adbf4508fbdf Franco Sioquim <francosioquim@gmail.com> 1370499319 +0800	commit: Fixed playboards-Draft
+2e4d159fe2668462987bc62b9b91adbf4508fbdf 5f9f8d43c4585d8e7ff57c445f5fe6b6daaf17b2 Franco Sioquim <francosioquim@gmail.com> 1370501597 +0800	commit: UI - Lag
+5f9f8d43c4585d8e7ff57c445f5fe6b6daaf17b2 2b87d52f47af00a9db57e0d969992648dc575715 Franco Sioquim <francosioquim@gmail.com> 1370511697 +0800	commit: Completed Basic Page Designs - Stable
+2b87d52f47af00a9db57e0d969992648dc575715 990dbb5d40cd5105dd8bd9ff44f8fd9c13626e90 Franco Sioquim <francosioquim@gmail.com> 1370598368 +0800	commit: Smartphone and Tablet portrait + landscape support
