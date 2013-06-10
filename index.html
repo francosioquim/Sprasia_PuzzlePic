@@ -6,31 +6,19 @@
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/layout.js"></script>
     <script src="js/splash.js"></script>
+    <script src="js/jquery.mobile-1.3.1.js"></script>
+    <!--<script src="js/cordova-2.7.0.js"></script>-->
 
 
 <meta charset="utf-8">
 <title>PuzzlePic</title>
 </head>
 
-<body onload="removeSplashscreen()">
-    <div id="splashscreen"><img id="sprlogo" src="images/sprlogo.png" width="250px"></div>
-    <header>
-        <p>Beta version</p>
-    </header>
-    <section>
-        <div id="wrapper">
-            <div id="logo"></div>
-            <div id="buttonlist">
-                <ul>
-                    <li id="btn-start" class="button"> <a href="start.html"><div class="generic_linker"></div></a></li>
-                    <li id="btn-gallery" class="button"> <a href="gallery.html"><div class="generic_linker"></div></a></li>
-                    <li id="btn-highscores" class="button"><a href="highscore.html"><div class="generic_linker"></div></a></li>
-                </ul>
-            </div>
-        </div><!--End Wrapper-->
-    </section>
-    <footer>
-        <p>Sprasia Philippines Incorporated</p>
-    </footer>
+<body onload="loadSplashscreen()">
+    <div id="splashscreen">
+        <a onclick="document.location.href = 'main.html';" data-transition="slide">
+        <img id="sprlogo" src="images/sprlogo.png" width="250px">
+        </a>
+    </div>
 </body>
 </html>
