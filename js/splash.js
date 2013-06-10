@@ -1,6 +1,3 @@
-
-function removeSplashscreen() {
-	setTimeout(function() {$('#splashscreen').fadeOut('slow');},3000);
-	
+function loadSplashscreen() {
+	setTimeout(function() {window.open("main.html", '_self');},3000);
 }
-
